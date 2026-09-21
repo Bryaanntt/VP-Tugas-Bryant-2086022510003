@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/MATA KULIAH/Semester 3/VIsual Programming/warung_digital/linux"
+    "cmake.sourceDirectory": "D:/MATA KULIAH/Semester 3/VIsual Programming/warung_digital/linux",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
