@@ -52,6 +52,7 @@ class _GameBacklogScreenState extends State<GameBacklogScreen> {
     return _allGames.where((g) => g.status == _selectedStatus).toList();
   }
 
+  // Game Status Widget
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,6 +71,7 @@ class _GameBacklogScreenState extends State<GameBacklogScreen> {
     );
   }
 
+    // Game List Item Widget
   Widget _buildBody() {
     if (_isLoading) return const GameLoadingView();
     if (_filteredGames.isEmpty) {
