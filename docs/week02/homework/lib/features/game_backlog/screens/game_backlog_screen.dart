@@ -11,8 +11,8 @@ class Game {
   final GameStatus status;
 
   const Game({required this.title, required this.status});
-}
-
+}                   
+  
 class GameBacklogScreen extends StatefulWidget {
   const GameBacklogScreen({super.key});
 
